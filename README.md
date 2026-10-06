@@ -339,7 +339,7 @@ https://github.com/feraszen/Fitness-Tracker
 - [x] GitHub Actions
 - [x] Successful GitHub Actions run
 - [x] Git branching
-- [ ] Pull Request workflow completed
+- [x] Pull Request workflow completed
 - [x] README documentation
 - [x] Three Clean Code examples documented
 - [x] Screenshots added to the README
