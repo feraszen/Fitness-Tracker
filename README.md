@@ -342,6 +342,6 @@ https://github.com/feraszen/Fitness-Tracker
 - [ ] Pull Request workflow completed
 - [x] README documentation
 - [x] Three Clean Code examples documented
-- [ ] Screenshots added to the README
+- [x] Screenshots added to the README
 - [x] Dependencies documented
 - [x] QAP problems documented
