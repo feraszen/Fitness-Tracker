@@ -38,6 +38,7 @@ Fitness Tracker/
 │   │               └── fitnesstracker/
 │   │                   ├── FitnessTracker.java
 │   │                   ├── Goal.java
+│   │                   ├── Main.java
 │   │                   └── Workout.java
 │   └── test/
 │       └── java/
@@ -87,6 +88,18 @@ It allows the application to:
 - Calculate total workout progress
 
 Progress is calculated by adding the duration of all logged workouts.
+
+### Main
+
+The `Main` class provides a simple console interface for interacting with the Fitness Tracker application.
+
+The console menu allows users to:
+
+- Log a workout
+- Set a fitness goal
+- View workout progress
+- View logged workouts
+- Exit the application
 
 ## Unit Tests
 
@@ -268,26 +281,23 @@ The main branch is:
 main
 ```
 
-A feature branch has been created for project documentation:
+Feature branches are used for project changes and submitted through Pull Requests.
 
-```text
-feature/add-readme
-```
-
-The intended workflow is:
+For example:
 
 ```text
 main
   │
-  └── feature/add-readme
+  ├── feature/add-readme
+  │       │
+  │       └── Pull Request #1
+  │
+  └── feature/add-console-interface
           │
-          └── Pull Request
-                    │
-                    ▼
-                  main
+          └── Pull Request #3
 ```
 
-The feature branch was submitted through Pull Request #1 targeting `main`.
+Both feature branches follow the Pull Request workflow targeting `main`.
 
 GitHub Actions is configured to run tests for Pull Requests targeting `main`.
 
@@ -318,6 +328,34 @@ A successful run should report that all tests pass.
 ```bash
 mvn validate
 ```
+
+### Run the Fitness Tracker Application
+
+First, run the Maven tests to compile and verify the project:
+
+```bash
+mvn test
+```
+
+Then start the console application:
+
+```bash
+java -cp target/classes com.feras.fitnesstracker.Main
+```
+
+The application displays a menu with the following options:
+
+```text
+===== Fitness Tracker =====
+
+1. Log Workout
+2. Set Goal
+3. View Progress
+4. View Workouts
+5. Exit
+```
+
+The application can be used to log workouts, set a fitness goal, view progress, and view logged workouts.
 
 ## Repository
 
