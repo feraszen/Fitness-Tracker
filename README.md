@@ -154,7 +154,7 @@ Names such as `FitnessTracker`, `Workout`, `Goal`, `workouts`, and `goal` make t
 
 **Screenshot:**
 
-_Add a screenshot of this section of `FitnessTracker.java` here._
+![Clean Code Example 1](screenshots/clean-code-example-1.png)
 
 ### Example 2: Clear Validation
 
@@ -177,7 +177,7 @@ The validation is kept close to the data being created, and the exception messag
 
 **Screenshot:**
 
-_Add a screenshot of this section of `Workout.java` here._
+![Clean Code Example 2](screenshots/clean-code-example-2.png)
 
 ### Example 3: Small Focused Method
 
@@ -199,7 +199,7 @@ The method is short, easy to read, and focused on one task.
 
 **Screenshot:**
 
-_Add a screenshot of this section of `FitnessTracker.java` here._
+![Clean Code Example 3](screenshots/clean-code-example-3.png)
 
 ## Maven Dependencies
 
@@ -256,7 +256,7 @@ The first GitHub Actions run completed successfully on the `main` branch.
 
 **Screenshot:**
 
-_Add a screenshot of the successful GitHub Actions run here._
+![GitHub Actions Success](screenshots/github-actions-success.png)
 
 ## Git Workflow
 
@@ -287,7 +287,7 @@ main
                   main
 ```
 
-The feature branch will be submitted through a Pull Request before being merged into `main`.
+The feature branch was submitted through Pull Request #1 targeting `main`.
 
 GitHub Actions is configured to run tests for Pull Requests targeting `main`.
 
